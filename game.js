@@ -4,7 +4,7 @@ var userClickedPattern = [];
 var starter = false;
 var level = 0;
 
-//Starter function.  Starts on any keypress on document
+//Starter function.  Starts on any mouseclick on document
 $(document).click(function() {
   if (!starter) {      // If game hasn't started, do the following
     $("#level-title").text("Level " + level);  // Change h1 to display what level
